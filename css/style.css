@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner part start */
+#banner-part {
+    background: url(/img/banner.png) no-repeat center;
+    background-size: 100%;
+}
+
+.overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 100px 475px;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+
+.overlay p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 40px;
+    padding: 0 100px;
+}
+
+.btn {
+    background: #FF5959;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 50px;
+    display: inline-block !important;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* banner part end */
+
+
+/* donate part start */
+#donate-part {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    padding: 0 500px;
+    margin-top: 10px;
+}
+
+.amount {
+    margin-top: 50px;
+
+}
+
+.amount ul {
+    display: flex;
+    justify-content: center;
+}
+
+.amount ul li {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.amount .active {
+    background: #FFEEEE !important;
+    border: 2px solid #FF5959;
+    color: #FF5959 !important;
+}
+
+.amount input {
+    margin-top: 60px;
+    margin-top: 60px;
+    width: 765px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    color: #B3B3B3;
+    font-size: 18px;
+padding: 10px 0;
+
+}
+
+.amount input:focus {
+    outline: none;
+}
+
+#donate-part .btn{
+    margin-top: 30px;
+}
+
+/* donate part end */
+
+
+/* pan part start */
+#plan-part{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#plan-part .title h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+#plan-part .title p{
+    padding: 0 500px;
+    margin-top: 10px;
+}
+.card-list{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+
+}
+.card{
+    width: 25%;
+    text-align: left;
+    padding: 50px 30px;
+    margin: 0 20px;
+    border-radius: 6px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+    margin: 20px 0;
+}
+.card p{
+    font-size: 16px;
+    color: #707070;
+}
+.card1{
+background: rgba(79, 157, 166, 0.10);
+border: 1px solid black;
+}
+.card2{
+background: rgba(255, 89, 89, 0.10);
+}
+.card3{
+background: #FFF4D6;
+}
+/* pan part end */
+
+
+/* contribute part start */
+#contribute-part{
+    margin: 100px 0;
+}
+.main{
+    display: flex;
+    width: 77%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.left{
+    width: 50%;
+    padding-right: 50px;
+}
+.right{
+    width: 50%;
+    padding-left: 50px;
+}
+.main img{
+    width: 100%;
+}
+.main h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin: 10px 0;
+}
+.main img{
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* contribute part end */
+
+
+/* subscribe part end */
+#subscribe-part{
+    margin: 100px 0;
+    text-align: center;
+}
+#subscribe-part .btn{
+    margin-top: -51px;
+    margin-left: -8px;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 100px 100px;
+    background: #FFF4D6;
+}
+form input{
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    background: #D9D9D9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+
+}
+form .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-weight: 400;
+
+}
+/* subscribe part end */
+
+
+/* footer part start */
+footer{
+    background: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #FF5959;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    margin-top: 30px;
+}
+/* footer part end */
